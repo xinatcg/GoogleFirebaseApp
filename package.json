@@ -1,5 +1,5 @@
 {
-  "name": "@playwind/com.google.firebase.app",
+  "name": "com.google.firebase.app",
   "version": "9.0.0",
   "displayName": "Firebase App (Core)",
   "keywords": [
@@ -8,23 +8,14 @@
     "FirebaseApp",
     "App"
   ],
-  "author": "Google LLC (https://firebase.google.com/docs/unity/setup)",
+  "author": {
+    "name": "Google LLC",
+    "url": "https://firebase.google.com/docs/unity/setup"
+  },
   "description": "Firebase App is the core library every Firebase package depends on.",
   "unity": "2017.1",
   "dependencies": {
     "com.google.external-dependency-manager": "1.2.171"
   },
-  "license": "Apache-2.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/xinatcg/GoogleFirebaseApp.git"
-  },
-  "bugs": {
-    "url": "https://github.com/xinatcg/GoogleFirebaseApp/issues"
-  },
-  "homepage": "https://github.com/xinatcg/GoogleFirebaseApp#readme"
+  "license": "Apache-2.0"
 }
